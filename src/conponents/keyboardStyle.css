@@ -1,0 +1,162 @@
+.lettersButtons{
+    width: 60%;
+    height: 40vh;
+    margin: auto;
+    /* margin-top: -100vh; */
+    background-color: #ececec;
+    padding: 5px;
+    border-radius: 5px;
+padding-top: 15px;
+
+
+}
+button{
+    
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f6f5f5;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin:3px;
+    box-shadow: 2px 2px 2px rgb(104, 103, 103);
+}
+text{
+    border: 20px solid rgba(0, 0, 0, 0.1);
+}
+/* .languageButton{
+    height: 20px;
+} */
+
+#chars{
+   width: 43px;
+   height: 43px; 
+   padding: 3px;
+   position: absolute;
+   margin-top:-30.5vh ;
+   margin-left: -28%;
+}
+#emoji{
+    width: 43px;
+    height: 43px; 
+    padding: 3px;
+    position: absolute;
+    /* margin-top:-vh ; */
+    margin-left: -143%;
+}
+#capsLock{
+   height: 50px;
+   width: 10vw; 
+    padding: 3px;
+    position: absolute;
+    margin-top:-8vh ;
+    margin-left: -150%;
+}
+
+.languageButtons{
+    position: absolute;
+    margin-top: -48vh;
+    margin-left:-590% ;
+    display: flex;
+}
+.lngButton{
+    background-color: rgb(46, 46, 46);
+    box-shadow: none;
+    color: rgb(202, 199, 199);
+    width: 4vw;
+    padding: 0;
+
+}
+.fontstyle{
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -51vh;
+    margin-left: 76%;
+    background-color: rgb(46, 46, 46);
+    box-shadow: none;
+    color: rgb(202, 199, 199);
+    width: 2vw;
+    height: 4vh;
+
+    padding: 0;
+    border: 1px solid rgb(240, 236, 236);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.fontweight{
+    font-weight: bold;
+    position: absolute;
+    margin-top: -51vh;
+    margin-left: 73%;
+    background-color: rgb(46, 46, 46);
+    box-shadow: none;
+    color: rgb(202, 199, 199);
+    width: 2vw;
+    height: 4vh;
+    padding: 0;
+    border: 1px solid rgb(240, 236, 236);
+}
+.textdecoration{
+    text-decoration: underline;
+    position: absolute;
+    margin-top: -51vh;
+    margin-left: 70%;
+    background-color: rgb(46, 46, 46);
+    box-shadow: none;
+    color: rgb(202, 199, 199);
+    width: 2vw;
+    height: 4vh;
+    padding: 0;
+    border: 1px solid rgb(240, 236, 236);
+}
+.changeFontSizeButton{
+    font-weight: bold;
+    position: absolute;
+    margin-top: -69.5vh;
+    /* margin-left: -30%; */
+    background-color: rgb(46, 46, 46);
+    box-shadow: none;
+    color: rgb(202, 199, 199);
+    width: 2vw;
+    height: 4vh;
+    padding: 0;
+    border: 1px solid rgb(240, 236, 236);
+}
+.sizeButton{
+    background-color: rgb(46, 46, 46);
+    box-shadow:none;
+    margin: 0; 
+     width: 0; 
+    text-align: center;
+   height: 4vh;
+   color: rgb(240, 236, 236);
+   margin-left: 20%;
+   
+}
+.fontSizeOptionsContainer{
+    position: absolute;
+    display: flex;
+    margin-top: -70vh;
+    /* margin-left: -1%; */
+}
+.changeFontSizeAllButton{
+    position: absolute;
+    margin-top: -10vh;
+    margin-left: 20.5%;
+    width: 9vw;
+}
+.fontSizeAllOptionsContainer{
+    position: absolute;
+    margin-top: -10.5vh;
+    margin-left: 30%;
+}
+.space{
+    height: 7vh;
+    width: 57vh;
+    margin-top: 8.1vh;
+    margin-left: -12vw;
+    position: absolute;
+}

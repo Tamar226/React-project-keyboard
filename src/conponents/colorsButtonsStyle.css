@@ -1,0 +1,55 @@
+
+
+.changeColorAllButton{
+    position: absolute;
+    /* display: grid; */
+    margin-left: 64.6%;
+    margin-top: -54.5vh;
+    height: 15px;
+    width: 20px;
+    font-size: 25px;
+    box-shadow: none;
+    background-color:rgb(46, 46, 46);
+    color:rgb(240, 236, 236);
+}
+.optionsContainer{
+    position: absolute;
+    display: grid;
+    margin-left: 74%;
+    margin-top: -80vh;
+    background:0 ;
+}
+.optionsContainerAll{
+    position: absolute;
+    display: flex;
+    margin-top: -52.5vh;
+    margin-left: 50%;
+
+    background:0 ;
+    
+}
+.colorsButtons{
+    position: absolute;
+    display: grid;
+    margin-left: 77%;
+    margin-top: -80vh;
+}
+
+.colorButton{
+    background-color: rgb(46, 46, 46);
+    box-shadow:none;
+    margin: 2px;
+    width: 1px;
+    text-align: center;
+   height: 4vh;
+}
+.colorAllButton{
+    background-color: rgb(46, 46, 46);
+    box-shadow:none;
+    /* margin: 2px; */
+    /* position: absolute; */
+    width: 1px;
+    text-align: center;
+   height: 4vh;
+}
+

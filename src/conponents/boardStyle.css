@@ -1,0 +1,55 @@
+body {
+    /* margin-top: -15vh; */
+
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bachgroundImage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.board {
+    background: rgb(46, 46, 46);
+    border: 20px solid rgba(0, 0, 0, .1);
+    height: 40vh;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 61%;
+    margin: auto;
+    text-align: center;
+}
+
+span {
+    color: rgb(255, 255, 255);
+
+}
+
+/* .textOnBoard{
+    height: 100%;
+} */
+.languageButtons {
+    margin-top: 45vh;
+    position: absolute;
+    margin-left: 25%;
+
+}
+
+
+.fontSizeButtons {
+    position: absolute;
+    margin-top: 19vh;
+    margin-left: 31%;
+    
+
+}
+
+.showLanguage {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 33vh;
+
+}
